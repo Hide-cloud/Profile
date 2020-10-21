@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://ferret.akamaized.net/images/59e76165fafbd876ee000341/original.jpg?1508335973");
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color:rgb(71, 70, 70);
+}
+.header-left{
+    float:left;
+    color:white;
+}
+
+.header-right{
+    float:right;
+}
+
+header a{
+    display:inline-block;
+    margin:20px 15px;
+    color:white;
+    background-color:rgb(177, 175, 175);
+    opacity:0.7;
+    cursor: pointer;
+}
+header a:hover{
+    opacity:1.0;
+}
+
+
+.top-wrapper{
+    background-image: url("https://d340eiag32bpum.cloudfront.net/img/post/article/183/18229-MAsgr0vL15CLBfmpcDAK_lrg.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    height:600px;
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top:150px;
+    left:400px;
+    font-family:'Cherry Swash', cursive;
+    font-size:100px;
+}
+
+#introduce{
+    text-align:center;
+    padding-top: 100px;
+}
+
+#myPicture{
+    border-radius: 50%;  
+    width:350px;
+    height:370px;   
+}
+#myPicture:hover{
+    opacity: 0.7;
+}
+
+
+h1{
+    text-align:center;
+    text-shadow: 2px 2px 5px lightslategray; 
+}
+
+#hoby{
+    padding:50px 0 200px 0 ;
+}
+
+.hoby-name1{
+    font-size:20px;
+}
+
+.bottonClass{
+    text-align: center;
+}
+
+button{
+    padding:1px 5px;
+    margin:3px 8px;
+    background-color:rgb(177, 174, 174);
+}
+
+.answer1{
+    display:none;
+}
+
+.hoby-icon img{
+    width:410px;
+    height:310px;
+}
+
+.hoby-introduce{
+    display:flex;
+}
+
+.hoby-icon{
+    display:auto;
+    margin:30px 30px;
+}
+
+.name{
+    font-size:25px;
+    font-family:"Arial", "メイリオ";
+    text-shadow: 2px 2px 5px lightslategray; 
+}
+
+.btn {
+    padding: 5px 20px;
+    margin:3px 0;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.twitter{
+    background-color:#55acee;
+}
+.homepage{
+    background-color:#239b76;
+}
+
+.hoby-name2{
+    font-size:20px;
+    text-shadow: 2px 2px 5px lightslategray; 
+    background-color:rgb(138, 135, 135);
+    text-align:center;
+}
+
+.answer2{
+    text-align: center;
+    display:none;
+}
+
+.travel{
+    position: relative;
+}
+
+.prev{
+    float:left;
+    position: absolute;
+    top:183px;
+    left:251px;
+    font-size:3em;
+}
+
+.next{
+    float: right;
+    position: absolute;
+    right:310px;
+    bottom:200px;
+    font-size:3em;
+}
+
+.tripSlide img{
+    width:410px;
+    height:310px;
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
+    text-align: center;
+}
+
+.slide img{
+    width:600px;
+    height:400px;
+}
+
+footer{
+    background-color:rgb(71, 70, 70);
+    color:white;
+    height:80px;
+    text-align: center;
+}
+footer a{
+    color:white;
+}
