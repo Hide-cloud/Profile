@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url("https://ferret.akamaized.net/images/59e76165fafbd876ee000341/original.jpg?1508335973");
+    font-family:'Vollkorn', serif;
 }
 
 header{
@@ -16,42 +16,58 @@ header{
     color:white;
 }
 
-.header-right{
-    float:right;
+.top{
+    height:80px;
+    font-size:20px;
+    font-weight:150;
+    position: relative;
 }
 
-header a{
-    display:inline-block;
-    margin:20px 15px;
-    color:white;
-    background-color:rgb(177, 175, 175);
-    opacity:0.7;
-    cursor: pointer;
+.top-right{
+    position: absolute;
+    top:45px;
+    left:1100px;
 }
-header a:hover{
-    opacity:1.0;
+
+.top-right a{
+    text-decoration:none;
+    margin:20px 15px;
+    color:black;
+    cursor: pointer;
 }
 
 
 .top-wrapper{
-    background-image: url("https://d340eiag32bpum.cloudfront.net/img/post/article/183/18229-MAsgr0vL15CLBfmpcDAK_lrg.jpg");
+    background-image: url("https://gardenstory.jp/wp-content/uploads/2020/04/3103892ac25ec4cbcfacd684b4114f96.jpg");
     opacity: 0.8;
     background-size: cover;
-    height:600px;
+    height:520px;
     position: relative;
 }
 
 h3{
     position: absolute;
-    top:150px;
-    left:400px;
-    font-family:'Cherry Swash', cursive;
-    font-size:100px;
+    top:200px;
+    left:200px;
+    font-size:50px;
 }
 
 #introduce{
     text-align:center;
     padding-top: 100px;
+}
+
+.introduce-position{ 
+   padding:50px;
+}
+
+.introduce-picture{
+    float: left;
+    padding-left: 250px;
+}
+
+.intoroduce-profile{
+    float: right;
 }
 
 #myPicture{
@@ -70,7 +86,15 @@ h1{
 }
 
 #hoby{
-    padding:50px 0 200px 0 ;
+    padding:80px 0 200px 0 ;
+}
+
+.bottonClass{
+    padding:20px 0
+}
+
+.hoby-list{
+    padding-top:30px;
 }
 
 .hoby-name1{
@@ -84,16 +108,16 @@ h1{
 button{
     padding:1px 5px;
     margin:3px 8px;
-    background-color:rgb(177, 174, 174);
 }
 
 .answer1{
     display:none;
+    text-align: center;
 }
 
 .hoby-icon img{
-    width:410px;
-    height:310px;
+    width:350px;
+    height:250px;
 }
 
 .hoby-introduce{
@@ -105,6 +129,11 @@ button{
     margin:30px 30px;
 }
 
+.details a{
+    float: left;
+}
+
+
 .name{
     font-size:25px;
     font-family:"Arial", "メイリオ";
@@ -113,26 +142,53 @@ button{
 
 .btn {
     padding: 5px 20px;
-    margin:3px 0;
+    margin:10px 10px;
     color: white;
     display: inline-block;
     opacity: 0.8;
-    border-radius: 4px;
+    border-radius:50%;
     cursor: pointer;
+  }
+  .btn:hover{
+      opacity:0.5;
   }
 
 .twitter{
-    background-color:#55acee;
+    font-size: 1.3rem;
+    line-height: 35px;
+
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50%;
+    background: #1da1f2;
 }
 .homepage{
-    background-color:#239b76;
+    font-size: 1.3rem;
+    line-height: 35px;
+
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50%;
+    background: #00b900;
+}
+.facebook{
+    font-size: 1.3rem;
+    line-height: 35px;
+
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50%;
+    background: #1877f2;
 }
 
 .hoby-name2{
     font-size:20px;
-    text-shadow: 2px 2px 5px lightslategray; 
-    background-color:rgb(138, 135, 135);
-    text-align:center;
 }
 
 .answer2{
